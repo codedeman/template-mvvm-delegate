@@ -9,7 +9,7 @@
 	<key>DefaultCompletionName</key>
 	<string>MVVM</string>
 	<key>Description</key>
-	<string>MVVM SDK Team</string>
+	<string>MVVM Clean Architecture</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>

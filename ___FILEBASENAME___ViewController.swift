@@ -11,7 +11,6 @@ import UIKit
 
 class ___VARIABLE_sceneName___ViewController:UIViewController {
     
-    // MARK: IBOutlet
     
     public var viewModel = ___VARIABLE_sceneName___ViewModel()
     
@@ -24,7 +23,7 @@ class ___VARIABLE_sceneName___ViewController:UIViewController {
     }
     
     private func initViewModel () {
-        self.viewModel.binding(delegate: self)
+
     }
     // MARK: Fetch ___VARIABLE_productName:identifier___
     private func fetchDataOnLoad() {
@@ -40,8 +39,5 @@ class ___VARIABLE_sceneName___ViewController:UIViewController {
     // MARK: IBAction
 }
 
-// MARK: Connect View, Interactor, and Presenter
-extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___Delegate {
-    
-}
+
 
